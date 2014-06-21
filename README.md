@@ -1,4 +1,4 @@
-Useful-Stuff-Mod
-================
+Useful-Minecraft-Mod
+====================
 
 A Minecraft modification, written by Pasterian

@@ -1,0 +1,45 @@
+#Creative Tabs
+itemGroup.usefulStuffTabBlocks=Useful Stuff Blocks
+itemGroup.usefulStuffTabItems=Useful Stuff Items
+itemGroup.usefulStuffTabArmor=Useful Stuff Armour
+
+#Blocks
+tile.MinablePick.name=Pick Infused Stone
+tile.shardOre.name=Shard Ore
+tile.ParmentaBlock.name=Parmenta Block
+
+#Shard/Quartz Ore Blocks
+tile.yellowshardOre.name=Yellow Shard Ore
+tile.greenshardOre.name=Green Shard Ore
+tile.blueShardOre.name=Blue Shard Ore
+tile.redshardOre.name=Red Shard Ore
+tile.purpleshardOre.name=Purple Shard Ore
+tile.pinkshardOre.name=Pink Shard Ore
+tile.cyanshardOre.name=Cyan Shard Ore
+
+#Shards/Quartz Blocks
+tile.redQuartz.name=Red Quartz
+tile.BlueQuartz.name=Blue Quartz
+tile.YellowQuartz.name=Yellow Quartz
+tile.PinkQuartz.name=Pink Quartz
+tile.PurpleQuartz.name=Purple Quartz
+tile.CyanQuartz.name=Cyan Quartz
+tile.GreenQuartz.name=Green Quartz
+
+#Items
+item.blueShard.name=Blue Shard
+item.redShard.name=Red Shard
+item.pinkShard.name=Pink Shard
+item.purpleShard.name=Purple Shard
+item.cyanShard.name=Cyan Shard
+item.greenShard.name=Green Shard
+item.YellowShard.name=Yellow Shard
+item.parGem.name=Parmenta Gem
+
+tile.enderWater.name=Ender Water
+
+#Armor
+item.parmentaHelmet.name=Parmenta Helmet
+item.parmentaChest.name=Parmenta Chestplate
+item.parmentaLeggings.name=Parmenta Leggings
+item.parmentaBoots.name=Parmenta Boots

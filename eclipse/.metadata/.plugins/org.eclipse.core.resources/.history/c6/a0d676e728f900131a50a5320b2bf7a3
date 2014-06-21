@@ -1,0 +1,16 @@
+package com.pasterian.usefulstuffmod.items;
+
+import java.com.pasterian.usefulmod.UsefulStuffMod;
+
+import net.minecraft.item.Item;
+
+public class GreenShard extends Item {
+
+	public GreenShard(){
+		super();
+		this.setCreativeTab(UsefulStuffMod.usefulStuffTabItems);
+		this.setMaxStackSize(64);
+		this.setTextureName("pasterian" + ":" + "greenShard");
+	}
+
+}

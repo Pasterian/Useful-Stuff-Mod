@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pasterian",
+  "name": "Example Mod",
+  "description": "The mod that'll meet all your Minecraft needs!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Pasterian"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "assets/pasterian/textures/blocks/MinablePick.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

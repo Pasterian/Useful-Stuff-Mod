@@ -1,0 +1,74 @@
+package com.pasterian.usefulstuffmod;
+
+import java.com.pasterian.usefulmod.armor.Armor;
+import java.com.pasterian.usefulmod.blocks.BlueQuartz;
+import java.com.pasterian.usefulmod.blocks.BlueShardOre;
+import java.com.pasterian.usefulmod.blocks.CyanQuartz;
+import java.com.pasterian.usefulmod.blocks.CyanShardOre;
+import java.com.pasterian.usefulmod.blocks.GemOre;
+import java.com.pasterian.usefulmod.blocks.GreenQuartz;
+import java.com.pasterian.usefulmod.blocks.GreenShardOre;
+import java.com.pasterian.usefulmod.blocks.MinablePick;
+import java.com.pasterian.usefulmod.blocks.ParmentaBlock;
+import java.com.pasterian.usefulmod.blocks.PinkQuartz;
+import java.com.pasterian.usefulmod.blocks.PinkShardOre;
+import java.com.pasterian.usefulmod.blocks.PurpleQuartz;
+import java.com.pasterian.usefulmod.blocks.PurpleShardOre;
+import java.com.pasterian.usefulmod.blocks.RedQuartz;
+import java.com.pasterian.usefulmod.blocks.RedShardOre;
+import java.com.pasterian.usefulmod.blocks.ShardOre;
+import java.com.pasterian.usefulmod.blocks.UMBlocks;
+import java.com.pasterian.usefulmod.blocks.YellowQuartz;
+import java.com.pasterian.usefulmod.blocks.YellowShardOre;
+import java.com.pasterian.usefulmod.blocks.fluids.BlockEnderWater;
+import java.com.pasterian.usefulmod.blocks.fluids.UMFluids;
+import java.com.pasterian.usefulmod.items.BlueShard;
+import java.com.pasterian.usefulmod.items.CyanShard;
+import java.com.pasterian.usefulmod.items.GreenShard;
+import java.com.pasterian.usefulmod.items.ParGem;
+import java.com.pasterian.usefulmod.items.PinkShard;
+import java.com.pasterian.usefulmod.items.PurpleShard;
+import java.com.pasterian.usefulmod.items.RedShard;
+import java.com.pasterian.usefulmod.items.UMItems;
+import java.com.pasterian.usefulmod.items.YellowShard;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidRegistry;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = UsefulStuffMod.MODID, version = UsefulStuffMod.VERSION)
+public class UsefulStuffMod {
+
+	public static UsefulStuffMod INSTANCE;
+	
+	public static final String MODID = "UsefulStuffMod";
+	public static final String VERSION = "Pre Alpha 1.7.2-1.0";
+
+	@EventHandler
+	public void init(FMLPreInitializationEvent event) {
+
+		UMBlocks.init();
+		UMRecipes.init();
+		UMItems.init();
+		UMFluids.init();
+		
+	}
+	
+	@EventHandler
+		public void init(FMLInitializationEvent event) {
+
+		}
+}
