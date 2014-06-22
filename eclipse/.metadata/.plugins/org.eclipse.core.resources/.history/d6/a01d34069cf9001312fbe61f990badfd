@@ -1,0 +1,24 @@
+package com.pasterian.usefulstuffmod.blocks.fluids;
+
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidRegistry;
+
+import com.pasterian.usefulstuffmod.UMBlocks;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class UMFluids {
+
+	public static Fluid enderWater = new Fluid("enderWater");
+	
+	
+	public static void init() {
+	
+		
+		FluidRegistry.registerFluid(yourFluid);
+		yourFluidBlock = new BlockYourFluid(yourFluid, Material.water).setBlockName("yourFluid");
+		GameRegistry.registerBlock(yourFluidBlock, yourMODID + "_" + yourFluidBlock.getUnlocalizedName().substring(5));
+		yourFluid.setUnlocalizedName(yourFluidBlock.getUnlocalizedName());
+
+	}
+}
