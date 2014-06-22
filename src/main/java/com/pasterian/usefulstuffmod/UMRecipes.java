@@ -6,6 +6,7 @@ import net.minecraft.item.ItemStack;
 
 import com.pasterian.usefulstuffmod.items.UMItems;
 
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class UMRecipes {

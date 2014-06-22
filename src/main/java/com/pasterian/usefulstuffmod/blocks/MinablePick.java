@@ -17,7 +17,7 @@ public class MinablePick extends Block {
 		this.setHarvestLevel("pickaxe", 2);
 		this.setBlockName("MinablePick");
 		this.setCreativeTab(UMCreativeTabs.usefulStuffTabBlocks);
-		this.setStepSound(Block.soundTypeAnvil);
+		this.setStepSound(Block.soundTypeMetal);
 		this.setHardness(5.0F);
 		this.setBlockTextureName("pasterian" + ":" + "MinablePick");
 	}

@@ -1,3 +1,49 @@
-[01:46:08] [main/INFO]: Setting user: Player761
-[01:46:10] [Client thread/INFO]: LWJGL Version: 2.9.1
-[01:46:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UsefulStuffMod
+[16:06:13] [main/INFO]: Setting user: Player604
+[16:06:14] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:06:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UsefulStuffMod
+[16:06:21] [Sound Library Loader/INFO]: Sound engine started
+[16:06:22] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:06:22] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:06:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UsefulStuffMod
+[16:06:22] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:06:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:06:23] [Client thread/ERROR]: ########## GL ERROR ##########
+[16:06:23] [Client thread/ERROR]: @ Post startup
+[16:06:23] [Client thread/ERROR]: 1281: Invalid value
+[16:06:23] [Sound Library Loader/INFO]: Sound engine started
+[16:06:25] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[16:06:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[16:06:42] [Server thread/INFO]: Generating keypair
+[16:06:43] [Server thread/INFO]: Preparing start region for level 0
+[16:06:44] [Server thread/INFO]: Preparing spawn area: 73%
+[16:06:44] [Server thread/INFO]: Player604[local:E:07013b59] logged in with entity id 243 at (-11.211262208018423, 70.0, 256.1692851418071)
+[16:06:44] [Server thread/INFO]: Player604 joined the game
+[16:06:45] [Server thread/INFO]: Saving and pausing game...
+[16:06:45] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Overworld
+[16:06:45] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Nether
+[16:06:45] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/The End
+[16:06:50] [Server thread/INFO]: Player604 has just earned the achievement [Taking Inventory]
+[16:06:50] [Client thread/INFO]: [CHAT] Player604 has just earned the achievement [Taking Inventory]
+[16:06:54] [Server thread/INFO]: [Player604: Set own game mode to Creative Mode]
+[16:06:54] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[16:07:09] [Server thread/INFO]: [Player604: Set own game mode to Survival Mode]
+[16:07:09] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[16:07:52] [Server thread/INFO]: Saving and pausing game...
+[16:07:52] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Overworld
+[16:07:52] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Nether
+[16:07:52] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/The End
+[16:08:28] [Server thread/INFO]: [Player604: Set own game mode to Creative Mode]
+[16:08:28] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[16:08:44] [Server thread/INFO]: [Player604: Set own game mode to Survival Mode]
+[16:08:44] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[16:08:55] [Server thread/INFO]: Saving and pausing game...
+[16:08:55] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Overworld
+[16:08:55] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Nether
+[16:08:55] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/The End
+[16:08:56] [Server thread/INFO]: Stopping server
+[16:08:56] [Server thread/INFO]: Saving players
+[16:08:56] [Server thread/INFO]: Saving worlds
+[16:08:56] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Overworld
+[16:08:56] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Nether
+[16:08:56] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/The End
+[16:08:58] [Client thread/INFO]: Stopping!

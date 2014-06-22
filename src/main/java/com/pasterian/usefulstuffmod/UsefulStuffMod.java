@@ -1,11 +1,16 @@
 package com.pasterian.usefulstuffmod;
 
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+
 import com.pasterian.usefulstuffmod.items.UMItems;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = UsefulStuffMod.MODID, version = UsefulStuffMod.VERSION)
 public class UsefulStuffMod {
@@ -18,15 +23,17 @@ public class UsefulStuffMod {
 	@EventHandler
 	public void init(FMLPreInitializationEvent event) {
 
+		
 		UMBlocks.init();
-		UMRecipes.init();
 		UMItems.init();
 		//UMFluids.init();
+		
 	
 	}
 	
 	@EventHandler
 		public void init(FMLInitializationEvent event) {
 
+		UMRecipes.init();
 		}
 }

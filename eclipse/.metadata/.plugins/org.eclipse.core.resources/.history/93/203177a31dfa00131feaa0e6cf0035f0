@@ -1,0 +1,71 @@
+package com.pasterian.usefulstuffmod;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+
+import com.pasterian.usefulstuffmod.items.UMItems;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = UsefulStuffMod.MODID, version = UsefulStuffMod.VERSION)
+public class UsefulStuffMod {
+
+	public static UsefulStuffMod INSTANCE;
+	
+	public static final String MODID = "UsefulStuffMod";
+	public static final String VERSION = "Pre Alpha 1.7.2-1.0";
+	
+	@EventHandler
+	public void init(FMLPreInitializationEvent event) {
+
+		UMBlocks.init();
+		UMRecipes.init(event);
+		UMItems.init();
+		//UMFluids.init();
+		
+		ItemStack blueQuartzStack = new ItemStack(UMBlocks.blueQuartz);
+		ItemStack redQuartzStack = new ItemStack(UMBlocks.redQuartz);
+		ItemStack yellowQuartzStack = new ItemStack(UMBlocks.yellowQuartz);
+		ItemStack greenQuartzStack = new ItemStack(UMBlocks.greenQuartz);
+		ItemStack pinkQuartzStack = new ItemStack(UMBlocks.pinkQuartz);
+		ItemStack purpleQuartzStack = new ItemStack(UMBlocks.purpleQuartz);
+		ItemStack cyanQuartzStack = new ItemStack(UMBlocks.cyanQuartz);
+		
+		ItemStack blueShardStack = new ItemStack(UMItems.blueShard, 1 ,1);
+		ItemStack redShardStack = new ItemStack(UMItems.redShard);
+		ItemStack yellowShardStack = new ItemStack(UMItems.yellowShard);
+		ItemStack greenShardStack = new ItemStack(UMItems.greenShard);
+		ItemStack cyanShardStack = new ItemStack(UMItems.cyanShard);
+		ItemStack pinkShardStack = new ItemStack(UMItems.pinkShard);
+		ItemStack purpleShardStack = new ItemStack(UMItems.purpleShard);
+		
+		ItemStack minablePickStack = new ItemStack(UMBlocks.minablePick);
+		ItemStack stoneStack = new ItemStack(Blocks.stone);
+		ItemStack pickaxeIronStack = new ItemStack(Items.iron_pickaxe);
+		ItemStack gemParmentaStack = new ItemStack(UMItems.parGem);
+		ItemStack blockParmentaStack = new ItemStack(UMBlocks.parmentaBlock);
+		
+		// Register Crafting Recipes
+		GameRegistry.addRecipe(blueQuartzStack, "xx", "xx", 'x', blueShardStack);
+		GameRegistry.addRecipe(redQuartzStack, "xx","xx", 'x', redShardStack);
+		GameRegistry.addRecipe(yellowQuartzStack, "xx","xx", 'x', yellowShardStack);
+		GameRegistry.addRecipe(cyanQuartzStack, "xx","xx", 'x', cyanShardStack);
+		GameRegistry.addRecipe(greenQuartzStack, "xx","xx", 'x', greenShardStack);
+		GameRegistry.addRecipe(pinkQuartzStack, "xx","xx", 'x', pinkShardStack);
+		GameRegistry.addRecipe(purpleQuartzStack, "xx","xx", 'x', purpleShardStack);
+		
+		GameRegistry.addRecipe(minablePickStack, "xxx", "xyx", "xxx", 'x', stoneStack, 'y', pickaxeIronStack);
+		GameRegistry.addRecipe(blockParmentaStack, "xxx","xxx","xxx", 'x', gemParmentaStack);
+	
+	}
+	
+	@EventHandler
+		public void init(FMLInitializationEvent event) {
+
+		}
+}
