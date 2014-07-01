@@ -1,0 +1,5 @@
+package com.pasterian.usefulstuffmod.client;
+
+public class UMClientProxy {
+
+}

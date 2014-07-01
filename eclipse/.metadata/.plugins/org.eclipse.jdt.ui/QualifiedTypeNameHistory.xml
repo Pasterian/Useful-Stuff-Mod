@@ -2,5 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="com.pasterian.usefulstuffmod.UsefulStuffMod"/>
+<fullyQualifiedTypeName name="com.pasterian.usefulstuffmod.UMUtil"/>
+<fullyQualifiedTypeName name="com.pasterian.usefulstuffmod.common.UMCommonProxy"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
 </qualifiedTypeNameHistroy>

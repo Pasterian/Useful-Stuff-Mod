@@ -35,5 +35,6 @@ public class UsefulStuffMod {
 		public void init(FMLInitializationEvent event) {
 
 		UMRecipes.init();
+		
 		}
 }

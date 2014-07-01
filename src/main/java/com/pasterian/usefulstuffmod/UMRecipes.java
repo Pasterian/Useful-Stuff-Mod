@@ -34,6 +34,7 @@ public class UMRecipes {
 		ItemStack pickaxeIronStack = new ItemStack(Items.iron_pickaxe);
 		ItemStack gemParmentaStack = new ItemStack(UMItems.parGem);
 		ItemStack blockParmentaStack = new ItemStack(UMBlocks.parmentaBlock);
+		ItemStack ParmentaStack = new ItemStack(UMItems.parGem, 9);
 		
 		// Register Crafting Recipes
 		GameRegistry.addRecipe(blueQuartzStack, "xx", "xx", 'x', blueShardStack);
@@ -44,6 +45,7 @@ public class UMRecipes {
 		GameRegistry.addRecipe(pinkQuartzStack, "xx","xx", 'x', pinkShardStack);
 		GameRegistry.addRecipe(purpleQuartzStack, "xx","xx", 'x', purpleShardStack);
 		
+		GameRegistry.addShapelessRecipe(ParmentaStack, UMBlocks.parmentaBlock);
 		GameRegistry.addRecipe(minablePickStack, "xxx", "xyx", "xxx", 'x', stoneStack, 'y', pickaxeIronStack);
 		GameRegistry.addRecipe(blockParmentaStack, "xxx","xxx","xxx", 'x', gemParmentaStack);
 	}

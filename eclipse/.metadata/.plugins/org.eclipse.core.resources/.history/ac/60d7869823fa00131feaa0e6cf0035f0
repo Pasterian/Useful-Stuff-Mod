@@ -1,0 +1,19 @@
+import com.pasterian.usefulstuffmod.common.UMCommonProxy;
+
+import net.minecraft.client.renderer.entity.RenderSnowball;
+import cpw.mods.fml.client.registry.RenderingRegistry;
+
+public class UMClientProxy extends UMCommonProxy {
+	
+	public void registerRenders()
+	{
+		
+		UMCommonProxy.parmenta = this.addArmor("ice");
+		
+	}
+
+	public int addArmor(String armor)
+	{
+		return RenderingRegistry.addNewArmourRendererPrefix(armor);
+	}
+}
