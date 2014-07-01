@@ -22,7 +22,7 @@ group= "com.pasterian.usefulstuffmod" // http://maven.apache.org/guides/mini/gui
 archivesBaseName = "Useful Stuff Mod"
 
 minecraft {
-    version = "1.7.2-10.12.2.1127"
+    version = "1.7.2-10.12.2.1147"
     assetDir = "eclipse/assets"
 }
 

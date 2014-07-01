@@ -28,7 +28,6 @@ public class UsefulStuffMod {
 		UMItems.init();
 		//UMFluids.init();
 		
-	
 	}
 	
 	@EventHandler

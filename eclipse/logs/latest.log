@@ -1,45 +1,15 @@
-[19:01:08] [main/INFO]: Setting user: Player671
-[19:01:09] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:01:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UsefulStuffMod
-[19:01:16] [Sound Library Loader/INFO]: Sound engine started
-[19:01:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:01:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:01:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UsefulStuffMod
-[19:01:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:01:18] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:01:18] [Client thread/ERROR]: ########## GL ERROR ##########
-[19:01:18] [Client thread/ERROR]: @ Post startup
-[19:01:18] [Client thread/ERROR]: 1281: Invalid value
-[19:01:18] [Sound Library Loader/INFO]: Sound engine started
-[19:01:20] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[19:01:22] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[19:01:22] [Server thread/INFO]: Generating keypair
-[19:01:23] [Server thread/INFO]: Preparing start region for level 0
-[19:01:24] [Server thread/INFO]: Preparing spawn area: 77%
-[19:01:24] [Server thread/INFO]: Player671[local:E:3a0ab86e] logged in with entity id 240 at (-14.544947707307399, 70.0, 258.4874525954059)
-[19:01:24] [Server thread/INFO]: Player671 joined the game
-[19:01:28] [Server thread/INFO]: Player671 has just earned the achievement [Taking Inventory]
-[19:01:28] [Client thread/INFO]: [CHAT] Player671 has just earned the achievement [Taking Inventory]
-[19:01:58] [Server thread/INFO]: [Player671: Set own game mode to Creative Mode]
-[19:01:58] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:03:18] [Server thread/INFO]: [Player671: Set own game mode to Creative Mode]
-[19:03:18] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:03:32] [Server thread/INFO]: [Player671: Set own game mode to Survival Mode]
-[19:03:32] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:05:06] [Server thread/INFO]: [Player671: Set own game mode to Creative Mode]
-[19:05:06] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:06:59] [Server thread/INFO]: [Player671: Set own game mode to Creative Mode]
-[19:06:59] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:07:10] [Server thread/INFO]: [Player671: Set own game mode to Survival Mode]
-[19:07:10] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:07:36] [Server thread/INFO]: Saving and pausing game...
-[19:07:36] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Overworld
-[19:07:36] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Nether
-[19:07:36] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/The End
-[19:07:37] [Server thread/INFO]: Stopping server
-[19:07:37] [Server thread/INFO]: Saving players
-[19:07:37] [Server thread/INFO]: Saving worlds
-[19:07:37] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Overworld
-[19:07:37] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/Nether
-[19:07:37] [Server thread/INFO]: Saving chunks for level 'Testing Mod'/The End
-[19:07:37] [Client thread/INFO]: Stopping!
+[18:13:30] [main/INFO]: Setting user: Player941
+[18:13:32] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:13:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UsefulStuffMod
+[18:13:39] [Sound Library Loader/INFO]: Sound engine started
+[18:13:40] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:13:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:13:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UsefulStuffMod
+[18:13:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:13:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:13:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[18:13:41] [Client thread/ERROR]: @ Post startup
+[18:13:41] [Client thread/ERROR]: 1281: Invalid value
+[18:13:41] [Sound Library Loader/INFO]: Sound engine started
+[18:13:43] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[18:13:45] [Client thread/INFO]: Stopping!

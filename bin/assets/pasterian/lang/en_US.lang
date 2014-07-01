@@ -6,7 +6,8 @@ itemGroup.usefulStuffTabArmor=Useful Stuff Armour
 #Blocks
 tile.MinablePick.name=Pick Infused Stone
 tile.shardOre.name=Shard Ore
-tile.ParmentaBlock.name=Parmenta Block
+tile.parmentaBlock.name=Parmenta Block
+tile.gemOre.name=Parmenta Ore
 
 #Shard/Quartz Ore Blocks
 tile.yellowshardOre.name=Yellow Shard Ore
@@ -19,12 +20,12 @@ tile.cyanshardOre.name=Cyan Shard Ore
 
 #Shards/Quartz Blocks
 tile.redQuartz.name=Red Quartz
-tile.BlueQuartz.name=Blue Quartz
-tile.YellowQuartz.name=Yellow Quartz
-tile.PinkQuartz.name=Pink Quartz
-tile.PurpleQuartz.name=Purple Quartz
-tile.CyanQuartz.name=Cyan Quartz
-tile.GreenQuartz.name=Green Quartz
+tile.blueQuartz.name=Blue Quartz
+tile.yellowQuartz.name=Yellow Quartz
+tile.pinkQuartz.name=Pink Quartz
+tile.purpleQuartz.name=Purple Quartz
+tile.cyanQuartz.name=Cyan Quartz
+tile.greenQuartz.name=Green Quartz
 
 #Items
 item.blueShard.name=Blue Shard
