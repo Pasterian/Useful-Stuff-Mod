@@ -163,9 +163,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "b2addd48bed86a6b2695e97878c59cd9bc84e9fe",
-    "jarFileModificationDate": "2014-03-10T06:03:31Z",
-    "location": "/System/Library/Java/Extensions/QTJava.zip",
+    "jarFileFingerprint": "8dd971cde724dfec556b5701ff3c9b8bbd262677",
+    "jarFileModificationDate": "2013-10-10T19:38:59+01:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar",
     "javaRuntime": true
   },
   {
@@ -176,23 +176,10 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "8dd971cde724dfec556b5701ff3c9b8bbd262677",
-    "jarFileModificationDate": "2013-10-10T19:38:59+01:00",
-    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar",
+    "jarFileFingerprint": "b2addd48bed86a6b2695e97878c59cd9bc84e9fe",
+    "jarFileModificationDate": "2014-03-10T06:03:31Z",
+    "location": "/System/Library/Java/Extensions/QTJava.zip",
     "javaRuntime": true
-  },
-  {
-    "symbolicName": "com.google.gson",
-    "version": {
-      "major": 2,
-      "minor": 2,
-      "micro": 4,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "a60a5e993c98c864010053cb901b7eab25306568",
-    "jarFileModificationDate": "2014-06-15T14:29:16+01:00",
-    "location": "/Users/charleswalker/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar",
-    "javaRuntime": false
   },
   {
     "symbolicName": "org.apache.commons.lang3",
@@ -205,6 +192,19 @@
     "jarFileFingerprint": "905075e6c80f206bbe6cf1e809d2caa69f420c76",
     "jarFileModificationDate": "2014-06-15T14:37:04+01:00",
     "location": "/Users/charleswalker/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.gson",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 4,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a60a5e993c98c864010053cb901b7eab25306568",
+    "jarFileModificationDate": "2014-06-15T14:29:16+01:00",
+    "location": "/Users/charleswalker/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar",
     "javaRuntime": false
   },
   {
@@ -247,19 +247,6 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "com.ibm.icu.core",
-    "version": {
-      "major": 51,
-      "minor": 2,
-      "micro": 0,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "63d216a9311cca6be337c1e458e587f99d382b84",
-    "jarFileModificationDate": "2014-06-15T14:37:04+01:00",
-    "location": "/Users/charleswalker/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "trove4j-3.0.3",
     "version": {
       "major": -1,
@@ -270,6 +257,19 @@
     "jarFileFingerprint": "42ccaf4761f0dfdfa805c9e340d99a755907e2dd",
     "jarFileModificationDate": "2014-06-15T14:37:03+01:00",
     "location": "/Users/charleswalker/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.icu.core",
+    "version": {
+      "major": 51,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "63d216a9311cca6be337c1e458e587f99d382b84",
+    "jarFileModificationDate": "2014-06-15T14:37:04+01:00",
+    "location": "/Users/charleswalker/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar",
     "javaRuntime": false
   },
   {
@@ -293,9 +293,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "a85d5af49e138a0adefc26bf22d2cfc8c754e6dd",
-    "jarFileModificationDate": "2013-08-08T03:11:25+01:00",
-    "location": "/System/Library/Java/Extensions/jai_codec.jar",
+    "jarFileFingerprint": "1131fd02e5ae3337bb6f58f41b5bd785bfc3b2c2",
+    "jarFileModificationDate": "2013-10-10T19:32:03+01:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar",
     "javaRuntime": true
   },
   {
@@ -306,9 +306,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "1131fd02e5ae3337bb6f58f41b5bd785bfc3b2c2",
-    "jarFileModificationDate": "2013-10-10T19:32:03+01:00",
-    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar",
+    "jarFileFingerprint": "a85d5af49e138a0adefc26bf22d2cfc8c754e6dd",
+    "jarFileModificationDate": "2013-08-08T03:11:25+01:00",
+    "location": "/System/Library/Java/Extensions/jai_codec.jar",
     "javaRuntime": true
   },
   {
@@ -650,19 +650,6 @@
     "javaRuntime": true
   },
   {
-    "symbolicName": "jinput-2.0.5",
-    "version": {
-      "major": -1,
-      "minor": -1,
-      "micro": -1,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
-    "jarFileModificationDate": "2014-06-15T14:37:04+01:00",
-    "location": "/Users/charleswalker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "launchwrapper-1.9",
     "version": {
       "major": -1,
@@ -673,6 +660,19 @@
     "jarFileFingerprint": "116f2aad5b0c68353ebed66cd463517db6522f7e",
     "jarFileModificationDate": "2014-06-15T14:36:20+01:00",
     "location": "/Users/charleswalker/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.9/116f2aad5b0c68353ebed66cd463517db6522f7e/launchwrapper-1.9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jinput-2.0.5",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+    "jarFileModificationDate": "2014-06-15T14:37:04+01:00",
+    "location": "/Users/charleswalker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar",
     "javaRuntime": false
   },
   {

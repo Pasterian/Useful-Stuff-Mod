@@ -36,7 +36,18 @@ public class UMRecipes {
 		ItemStack blockParmentaStack = new ItemStack(UMBlocks.parmentaBlock);
 		ItemStack ParmentaStack = new ItemStack(UMItems.parGem, 9);
 		
+		ItemStack parHelmetStack = new ItemStack(UMItems.parmentaHelm);
+		ItemStack parChestStack = new ItemStack(UMItems.parmentaChest);
+		ItemStack parLegsStack = new ItemStack(UMItems.parmentaLegs);
+		ItemStack parBootsStack = new ItemStack(UMItems.parmentaBoots);
+		
 		// Register Crafting Recipes
+		
+		GameRegistry.addRecipe(parHelmetStack, "xxx", "xyx", "yyy", 'x', gemParmentaStack);
+		GameRegistry.addRecipe(parChestStack, "xyx", "xxx", "xxx", 'x', gemParmentaStack);
+		GameRegistry.addRecipe(parLegsStack, "xxx", "xyx", "xyx", 'x', gemParmentaStack);
+		GameRegistry.addRecipe(parBootsStack, "yyy", "xyx", "xyx", 'x', gemParmentaStack);
+		
 		GameRegistry.addRecipe(blueQuartzStack, "xx", "xx", 'x', blueShardStack);
 		GameRegistry.addRecipe(redQuartzStack, "xx","xx", 'x', redShardStack);
 		GameRegistry.addRecipe(yellowQuartzStack, "xx","xx", 'x', yellowShardStack);
